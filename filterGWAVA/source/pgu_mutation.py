@@ -3,10 +3,17 @@
 """
 Created on Mon Sep 30 13:08:16 2019
 
-filterGwava
+File Name: pgu_mutation.py
+Project: filterGWAVA
+Version: 19.09
+Created By: Sebastian Malkusch
+Contact: <malkusch@med.uni-frankfurt.de>
+Company: Goethe University of Frankfurt
+Institute: Clinical Pharmacology
+Department: Data Science
 
+License
 Copyright (C) 2019  Sebastian Malkusch
-malkusch@med.uni-frankfurt.de
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -100,5 +107,7 @@ class Mutation:
                        self.mutationType))
         print(message)
         
-    def __del__(self):
-        print("MutationId removed from heap!")
+# =============================================================================
+#     def __del__(self):
+#         print("MutationId removed from heap!")
+# =============================================================================

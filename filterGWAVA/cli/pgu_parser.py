@@ -3,10 +3,17 @@
 """
 Created on Mon Sep 30 16:03:50 2019
 
-filterGwava
+File Name: pgu_parser.py
+Project: filterGWAVA
+Version: 19.09
+Created By: Sebastian Malkusch
+Contact: <malkusch@med.uni-frankfurt.de>
+Company: Goethe University of Frankfurt
+Institute: Clinical Pharmacology
+Department: Data Science
 
+License
 Copyright (C) 2019  Sebastian Malkusch
-malkusch@med.uni-frankfurt.de
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -59,3 +66,8 @@ class ParserInformation:
     @property
     def gwavaScoreHelp(self):
         return self.__gwavaScoreHelp
+    
+# =============================================================================
+#     def __del__(self):
+#         print("ParserInformation removed from heap!")
+# =============================================================================

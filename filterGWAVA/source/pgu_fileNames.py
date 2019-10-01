@@ -3,10 +3,17 @@
 """
 Created on Mon Sep 30 15:03:46 2019
 
-filterGwava
+File Name: pgu_fileNames.py
+Project: filterGWAVA
+Version: 19.09
+Created By: Sebastian Malkusch
+Contact: <malkusch@med.uni-frankfurt.de>
+Company: Goethe University of Frankfurt
+Institute: Clinical Pharmacology
+Department: Data Science
 
+License
 Copyright (C) 2019  Sebastian Malkusch
-malkusch@med.uni-frankfurt.de
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -86,7 +93,7 @@ class FileNames:
         self.__folderName = os.path.dirname(self.variantsFileName)
         [baseFileName, self.__suffix]=os.path.basename(self.variantsFileName).split(".")
         now = datetime.now()
-        self.__outFileName = ("%s/%s_GwavaScores_%s%s%s.%s" % (self.folderName,
+        self.__outFileName = ("%s/%s_GWAVAscores_%s%s%s.%s" % (self.folderName,
                                                             baseFileName,
                                                             now.strftime("%y"),
                                                             now.strftime("%m"),
@@ -102,8 +109,10 @@ class FileNames:
                        self.outfileName))
         print(message)
     
-    def __del__(self):
-        print("Removed FileNames from heap.")
+# =============================================================================
+#     def __del__(self):
+#         print("Removed FileNames from heap.")
+# =============================================================================
         
     
         

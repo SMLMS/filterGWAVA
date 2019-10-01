@@ -2,11 +2,17 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 20 15:37:16 2019
+File Name: setup.py
+Project: filterGWAVA
+Version: 19.09
+Created By: Sebastian Malkusch
+Contact: <malkusch@med.uni-frankfurt.de>
+Company: Goethe University of Frankfurt
+Institute: Clinical Pharmacology
+Department: Data Science
 
-filterGwava
-
+License
 Copyright (C) 2019  Sebastian Malkusch
-malkusch@med.uni-frankfurt.de
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

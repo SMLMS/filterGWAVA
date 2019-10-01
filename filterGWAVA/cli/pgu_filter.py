@@ -3,10 +3,17 @@
 """
 Created on Tue Oct  1 09:02:11 2019
 
-filterGwava
+File Name: pgu_filter.py
+Project: filterGWAVA
+Version: 19.09
+Created By: Sebastian Malkusch
+Contact: <malkusch@med.uni-frankfurt.de>
+Company: Goethe University of Frankfurt
+Institute: Clinical Pharmacology
+Department: Data Science
 
+License
 Copyright (C) 2019  Sebastian Malkusch
-malkusch@med.uni-frankfurt.de
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -62,5 +69,7 @@ class Filter:
         except:
             raise Exception('Could not write to file %s' %(self.__fileNames.outfileName))
     
-    def __del__(self):
-        print("remove Flock from heap.")
+# =============================================================================
+#     def __del__(self):
+#         print("remove Filter from heap.")
+# =============================================================================
