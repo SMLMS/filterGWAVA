@@ -22,6 +22,5 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-__all__=["pgu_mutation",
-         "pgu_globals",
-         "pgu_fileNames"]
+__all__=["pgu_parser",
+         "pgu_filter"]
